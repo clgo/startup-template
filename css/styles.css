@@ -1,0 +1,60 @@
+/* Defining the box model */
+/**
+h1 {
+	margin: 50px;
+	padding: 20px;
+	border: 10px solid #f00;
+	text-align: center;
+	font-size: 50px;
+	border-radius: 20px;
+}
+
+#navbar {
+	background-color: azure;
+	// Provides some padding to the top and bottom
+	padding: 20px 0 20px 0;
+}
+
+.navbar-items {
+	// We want list items with no bullet points and and anchored to the left 
+	list-style: none; // remove the bullet list 
+	padding-left: 3px;
+}
+
+.navbar-items li {
+	// Remove the bullet points and gives it a bit of breathing between buttons
+	display: inline; // display the items side by side instead of each row
+	background-color: bisque;
+	border-radius: 5px;
+	padding: 2px;
+	margin-right: 2px;
+}
+
+.navbar-items li a {
+	// Removes the underlying from hyperlinks
+	text-decoration: none;
+}
+*/
+
+.colwrapper, .footer {
+	width: 1020px;
+}
+
+.ltcol, .ctcol, .rtcol {
+	width: 300px;
+	margin: 0 10px;
+	padding: 10px;
+}
+
+.ltcol, .ctcol {
+	float: left;
+}
+
+.rtcol {
+	float: right;
+}
+
+.footer {
+	width: 1020px;
+	float: left;
+}
